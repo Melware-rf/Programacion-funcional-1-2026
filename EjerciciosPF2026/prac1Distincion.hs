@@ -3,6 +3,11 @@
 esMayor n1 n2 = if n1>n2 then n1 else n2
 esMayor4 n1 n2 n3 n4 = esMayor(esMayor n1 n2)(esMayor n3 n4)
 -- Por distinción de casos.
+esMay4 n1 n2 n3 n4 
+    |n1>n2 && n1>n3 && n1>n4 =n1
+    |n2>n1 && n2>n3 && n2>n4 = n2
+    |n3>n1 && n3>n2 && n3>n4= n3
+    |otherwise = n4
 --2. Definir una función que reciba una nota y devuelva el mensaje “Aprobado” o
 -- “Reprobado”.
 --3. Definir una función que reciba una nota y devuelva el mensaje “Excelente“ si la nota
