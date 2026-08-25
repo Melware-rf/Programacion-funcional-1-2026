@@ -10,6 +10,11 @@ esMay4 n1 n2 n3 n4
     |otherwise = n4
 --2. Definir una función que reciba una nota y devuelva el mensaje “Aprobado” o
 -- “Reprobado”.
+estado:: Int -> String
+estado n 
+    |n>=51 && n<=100 = "Aprobado"
+    |n>=0 && n <= 50 = "Reprobado"
+    |otherwise = "Nota Invalida"
 --3. Definir una función que reciba una nota y devuelva el mensaje “Excelente“ si la nota
 --esta entre 90-100, “Bien” si esta entre 70-89, “Regular” si esta entre 51-69 y mal si esta
 --entre 0-50.
