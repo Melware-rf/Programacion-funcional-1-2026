@@ -18,6 +18,13 @@ estado n
 --3. Definir una función que reciba una nota y devuelva el mensaje “Excelente“ si la nota
 --esta entre 90-100, “Bien” si esta entre 70-89, “Regular” si esta entre 51-69 y mal si esta
 --entre 0-50.
+nota:: Int -> String
+nota n
+    |n>=90 && n<=100 = "Excelente"
+    |n>=70 && n<=89 = "Bien"
+    |n>=51 && n<=69 = "Regular"
+    |n>=0 && n<=50 = "Mal"
+    |otherwise = "Nota Invalida"
 --4. Definir una función que reciba como argumentos las notas de primer parcial, segundo
 --parcial, final y segunda instancia y retorne el mensaje aprobado o reprobado, según el
 --caso.
