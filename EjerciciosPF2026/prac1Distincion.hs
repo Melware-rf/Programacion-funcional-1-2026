@@ -28,6 +28,12 @@ nota n
 --4. Definir una función que reciba como argumentos las notas de primer parcial, segundo
 --parcial, final y segunda instancia y retorne el mensaje aprobado o reprobado, según el
 --caso.
+--estado2 :: Int -> Int -> Int -> Int -> String
+estado2 p1 p2 f si 
+    |((((p1+p2)/2) >=51) && ((p1+p2)/2) <=100) || (f>=51 && f<=100) || (si>=51 && si<=100) = "Aprobado"
+    |(p1+p2)/2 >=1 && (p1+p2)/2 <=50 = "Reprobado"
+    |p1==0 && p2==0 && f==0 && si==0 = "Abandono"
+    |otherwise = "Nota Invalida"
 --5. Definir una función que reciba 16 números y retorne el mayor
 --6. Definir una función que reciba un quebrado y devuelva verdad si este es mayor que 1
 --y falso en otro caso
