@@ -1,5 +1,7 @@
 --1. Definir una función que reciba 4 número y devuelva el mayor.
 -- Por combinación.
+esMayor n1 n2 = if n1>n2 then n1 else n2
+esMayor4 n1 n2 n3 n4 = esMayor(esMayor n1 n2)(esMayor n3 n4)
 -- Por distinción de casos.
 --2. Definir una función que reciba una nota y devuelva el mensaje “Aprobado” o
 -- “Reprobado”.
