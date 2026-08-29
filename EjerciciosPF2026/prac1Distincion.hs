@@ -53,13 +53,6 @@ mayor16 n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 n15 n16
     |n15>n1 && n15>n2 && n15>n3 && n15>n4 && n15>n5 && n15>n6 && n15>n7 && n15>n8 && n15>n9 && n15>n10 && n15>n11 && n15>n12 && n15>n13 && n15>n14 && n15>n16 =n15
     |otherwise = n16
 
-
-
-
-
-
-
-
 --6. Definir una función que reciba un quebrado y devuelva verdad si este es mayor que 1
 --y falso en otro caso
 
