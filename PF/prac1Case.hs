@@ -1,0 +1,20 @@
+--EJERCICIO4 (Usando case)
+--1. Definir una función que reciba una vocal y retorne la siguiente
+--2. Definir una función que reciba un dígito y retorne su literal
+--3. Suponiendo que representamos los valores lógicos por 1 y 0 (true y false), definir una
+--función que reciba dos valores lógicos y retorne el resultado de aplicarle la operación
+--and
+--4. Idem a 3 pero para or
+--5. Idem a 3 para xor
+--6. Idem a 3 pero que reciba como argumento la operación que se realizará.
+--7. Definir una función que reciba un número de dos dígitos y retorne su literal
+--8. Definir una función que reciba un número de tres dígitos y retorne su literal
+--9. Definir una función que reciba dos números y retorne el menor
+--10. Definir una función que reciba 6 números y devuelva el menor
+--11. Definir una función que reciba 3 números y devuelva el mensaje “Sumatoria mayor” si
+--la sumatoria de los números es menor que 20, el mensaje “Sumatoria menor” si la
+--sumatoria es menor que 10 y el mensaje “Vacio” en otro caso.
+--12. Definir una función que reciba 3 notas que devuelva el mensaje “Excelente“ si el
+--promedio esta entre 90-100, “Bien” si esta entre 70-89, “Regular” si esta entre 51-69 y
+--mal si esta entre 0-50.
+--Inventar 3 ejercicios que muestren la utilidad de las definiciones locales
