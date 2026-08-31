@@ -1,0 +1,4 @@
+-- g:: Bool-> Int -> Char -> Int ->Int
+-- g True 5 :: Char -> Int ->Int
+-- g True 5 "a" ::  Int ->Int
+-- g True 5 "a" 8 :: Int
