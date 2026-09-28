@@ -1,4 +1,4 @@
-------foldr practica
+------foldr practicaa
 miReverse xs = foldr f a xs
  where
     a = []
