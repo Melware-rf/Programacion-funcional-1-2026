@@ -53,8 +53,11 @@ f6 :: p -> p
 f6 x = x
 
 f7 x y = x y
-f8 x y z = x (y z)
 
+f8 x y z = x (y z)
+--f8:: (ty -> tr) -> (tz -> ty) -> tz -> tr
+--8 :: (b -> c) -> (a -> b) -> a -> c
+f8 :: (a -> b) -> (c -> a) -> c -> b
 
 f9 x y z = (x y) z
 f9 :: (tx -> ty -> tz) -> tx -> ty ->tz
@@ -64,7 +67,23 @@ f10 :: (tx -> tr) -> (tz -> tx) -> (tw -> tz) -> tw -> tr
 f10 x y z w= x (y (z w))
 f11 x y z w= ((x y) z) w
 f12 x y z w= ((x y) (z w))
+ 
+f13 x y z = x*2+y
+
+f16 x y z = x y z
+
+f17 x y z | x = y
+          | y = z
+
+
 
 f56 :: (t1 -> Integer, t1) -> (t2 -> Integer, t2) -> Integer
 f56 = (\(x,y) -> \(z ,w) -> (x y )+ (z w))
+
+
+---------foldr
+miReverse xs = foldr f a xs
+ where
+    a = []
+    f x rs = rs ++ [x]
 
